@@ -25,6 +25,7 @@ public partial class FrmPrincipal extends Form
     //Declararation of all variables, vectors and haarcascades
     private Image<Bgr, Byte> currentFrame;
 	private Image<Bgr, Byte> currentFrame1;
+	private Image<Bgr, Byte> currentFrame2;
 
     private Capture grabber;
     private HaarCascade face;
